@@ -1,0 +1,42 @@
+:root{
+    --colorCielo: #009FAD;
+    --colorVerde: #00463B;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, 
+        var(--colorCielo) 0%,
+        var(--colorCielo) 49%,
+        var(--colorVerde) 51%,
+        var(--colorVerde) 100%);
+}
+
+.container{
+    max-width: 767px;
+    width: 100%;
+    background-image: url(/img/fondo.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container-button{
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 800;
+    color: white;
+    background-color: var(--colorVerde);
+    padding: 25px;
+    width: fit-content;
+    border-radius: 25px;
+    position: absolute;
+    bottom: 22%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: none;
+}
