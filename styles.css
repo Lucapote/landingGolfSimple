@@ -35,7 +35,7 @@ body {
     width: fit-content;
     border-radius: 25px;
     position: absolute;
-    bottom: 13%;
+    bottom: 10%;
     left: 50%;
     transform: translateX(-50%);
     text-decoration: none;
